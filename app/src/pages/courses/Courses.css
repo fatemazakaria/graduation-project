@@ -1,0 +1,36 @@
+
+
+
+.corsesContainer {
+  display: flex !important;
+  flex-direction: column !important;
+  background: white
+}
+
+.main-content{
+  width: 100% !important;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  gap: 50px !important;
+  
+}
+.coursesList{
+  width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+@media(max-width:600px){
+.coursesContainer {
+  text-align: center !important;
+}
+.main-content {
+flex-direction: column !important;
+align-items: center !important;
+  }
+}

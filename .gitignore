@@ -1,0 +1,46 @@
+# ملفات النظام
+Desktop.ini
+Thumbs.db
+.DS_Store
+*.log
+*.tmp
+
+# ملفات Visual Studio (إذا كان مشروع C#)
+.vs/
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
+
+# ملفات VS Code
+.vscode/
+*.code-workspace
+
+# ملفات Node.js (إذا كان مشروع JavaScript)
+node_modules/
+package-lock.json
+.env
+
+# ملفات Python
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+*.egg-info/
+
+# ملفات Java
+*.class
+target/
+.idea/
+*.iml
+
+# ملفات مؤقتة
+*.exe
+*.msi
+*.lnk
+*.pdf
+*.docx
+*.pptx

@@ -1,0 +1,10 @@
+@font-face {
+	font-family:cairo;
+	src: url('../public/fonts/Cairo-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family:cairo;
+	src: url('../public/fonts/Cairo-Medium.ttf');
+	font-weight: 500;
+}

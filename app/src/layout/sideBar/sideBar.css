@@ -1,0 +1,41 @@
+.filters {
+  min-width: max-content !important;
+  align-items: start !important;
+}
+.listItem {
+  height: 50px !important;
+  margin: 5px !important;
+  padding: 10px !important;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+}
+.listItem:hover {
+  background-color: #2f674f !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.listItemText {
+  font-weight: 500 !important;
+  font-size: 25px !important;
+  text-align: right;
+}
+.more-view {
+  background-color: #c8e6c9 !important;
+}
+
+.new {
+  background-color: #fff0d2 !important;
+}
+.special{
+	font-weight: 700 !important;
+	font-size: 25px !important;
+}
+
+@media (max-width: 600px) {
+  .listItem {
+  }
+}

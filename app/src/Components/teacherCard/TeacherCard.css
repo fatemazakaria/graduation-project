@@ -1,0 +1,56 @@
+.mainCard {
+  background-color: #FFFFFF;
+  	width: 30%;
+  	max-height: 190px;
+  	border-radius: 16px !important;
+  	border: 1px;
+  	display: flex;
+  	padding: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15)!important;
+  	-webkit-border-radius: 16px !important;
+  	-moz-border-radius: 16px !important;
+  	-ms-border-radius: 16px !important;
+  	-o-border-radius: 16px !important;
+  	transition: 0.3s !important;
+  	-webkit-transition: 0.3s !important;
+  	-moz-transition: 0.3s !important;
+  	-ms-transition: 0.3s !important;
+  	-o-transition: 0.3s !important;
+}
+.mainCard:hover{
+    background-color: #E6E6E6;
+  transform: translatey(-10px);
+  -webkit-transform: translatey(-10px);
+  -moz-transform: translatey(-10px);
+  -ms-transform: translatey(-10px);
+  -o-transform: translatey(-10px);
+}
+
+.specialization {
+  position: absolute;
+  left: -25px;
+  top: 5px;
+  background-color: #c8e6c9;
+  color: #1b5e20;
+  text-align: center;
+  width:190px;
+  padding: 6px 10px 6px 10px;
+  border-top-right-radius: 99px;
+  border-bottom-right-radius: 99px;
+}
+
+/* mobile size */
+@media (max-width: 620px){ 
+  .name , .description{
+   font-size:20px !important;
+   margin-right: 20px !important;
+   margin-top: 70px !important;
+  }
+  .description{
+   margin-top: 20px !important;
+  }
+  .largAvatar{
+    width: 100px !important;
+    height: 100px !important;
+  }
+} 

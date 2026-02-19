@@ -1,0 +1,13 @@
+.course-container{
+	display: flex !important;
+	flex-direction: row;
+	justify-content:space-between !important;
+}
+.lessons-structure{
+	text-align: right;
+	width: 251px;
+	direction: rtl !important;
+}
+.lesson-content{
+	max-width: 70% !important;
+}
