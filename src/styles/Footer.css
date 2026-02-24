@@ -1,0 +1,109 @@
+/* إعدادات الحاوية الرئيسية */
+.site-footer {
+  background-color: #ffffff;
+  padding: 3rem 0;
+  border-top: 1px solid #f3f4f6; /* خط علوي خفيف */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4b5563;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* تنسيق الصف العلوي (Flexbox) */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* لضمان التجاوب مع الشاشات الصغيرة */
+  gap: 1.5rem;
+}
+
+/* 1. تنسيق الشعار */
+.footer-logo h2 {
+  color: #15803d; /* الأخضر الغامق */
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: "cairo",sans-serif;
+ 
+}
+
+/* 2. تنسيق قائمة الروابط */
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 2rem; /* مسافة بين الروابط */
+  
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #4b5563;
+  font-size: 1rem;
+  font-weight: 500;
+   
+}
+
+
+.f a:hover {
+  color: #2e794a; /* يتغير للأخضر عند المرور */
+ 
+}
+
+
+/* 3. تنسيق أيقونات التواصل */
+.footer-social {
+  display: flex;
+  gap: 1.2rem;
+  
+}
+
+.footer-social a {
+  color: #9ca3af; /* لون رمادي للأيقونات */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ transition: transform 0.3s ease;
+}
+
+ 
+
+
+
+.footer-social a:hover {
+transform: translateY(-5px);
+  color: #217941; /* يتغير للأخضر عند المرور */
+}
+
+/* تنسيق الجزء السفلي (حقوق الملكية) */
+.footer-bottom {
+  margin-top: 3rem; /* مسافة كبيرة تفصل الحقوق عن المحتوى */
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #9ca3af;
+  font-size: 0.9rem;
+  margin: 0;
+  
+}
+
+/* --- Responsive Design (للموبايل) --- */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column; /* ترتيب العناصر تحت بعض */
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer-nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

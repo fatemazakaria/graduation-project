@@ -1,0 +1,18 @@
+
+ {
+   "compilerOptions": {
+     "checkJs": true,
+     "jsx": "react-jsx",
+     "baseUrl": "src",
+     "resolveJsonModule": true
+     
+   },
+   "include": [
+     "src"
+, "src/index.js"   ],
+
+   "exclude": [
+     "node_modules",
+     "build"
+   ]
+ }
