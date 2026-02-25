@@ -1,0 +1,40 @@
+/* SignUpPage.css */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Amiri+Quran&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* تنسيقات إضافية للتحويمات */
+input:focus,
+select:focus {
+  border-color: #438846 !important;
+  box-shadow: 0 0 0 2px rgba(67, 136, 70, 0.2);
+}
+
+/* تنسيقات للسكريين ريدر */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
